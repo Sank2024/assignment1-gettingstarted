@@ -6,9 +6,11 @@ def welcome_assignment_answers(question):
     #Students do not have to follow the skeleton for this assignment.
     #Another way to implement is using a "case" statements similar to C.
     if question == "Are encoding and encryption the same? - Yes/No":
-        answer = "The student should type the answer here"
+        answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "The student should type the answer here"
+        answer = "Yes"
+    elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
+        answer = "4"
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
@@ -20,7 +22,7 @@ def welcome_assignment_answers(question):
 
 if __name__ == "__main__":
     #use this space to debug and verify that the program works
-    debug_question = "Are encoding and encryption the same? - Yes/No"
+    debug_question = "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number"
     print(welcome_assignment_answers(debug_question))
 
 #Questions:
