@@ -9,9 +9,9 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "No"
-    elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number/4 ":
+    elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number/ 4 ":
         answer = "4"
-    elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
+    elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA? /posted by a TA?":
         answer = "pcap"
     elif question == "Is it possible to decode a message without a key? - Yes/No":
         answer = "No"
