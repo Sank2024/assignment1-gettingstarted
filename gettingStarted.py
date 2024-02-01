@@ -5,7 +5,7 @@
 def welcome_assignment_answers(question):
     # Students do not have to follow the skeleton for this assignment.
     # Another way to implement is using a "case" statements similar to C.
-    question = question.strip()
+
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
@@ -25,6 +25,7 @@ def welcome_assignment_answers(question):
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = 3
     else:
+        question = question.strip()
         answer = f"Invalid question: '{question}' does not match any predefined questions"
     return answer
 
