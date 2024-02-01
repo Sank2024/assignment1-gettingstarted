@@ -27,7 +27,6 @@ def welcome_assignment_answers(question):
         answer = f"invalid question: {question}"
     return answer
 
-
 # Complete all the questions.
 
 
