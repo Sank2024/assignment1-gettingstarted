@@ -20,7 +20,7 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question.strip() == "What is the SHA256 hashing value of your NYU email and use the answer in your code -":
         answer = "c504dc6362e24f920b065bbb5c5249104108ae530bd47b573213db898e2177fc"
-    elif question.strip() =="Is MD5 a secured hashing algorithm? - Yes/No":
+    elif question.strip() == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question.strip() == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = 3
