@@ -25,7 +25,7 @@ def welcome_assignment_answers(question):
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = 3
     else:
-        answer = "Invalid question: Please check the question format"
+        answer = f"Invalid question: '{question}' does not match any predefined questions"
     return answer
 
 # Complete all the questions.
@@ -33,7 +33,7 @@ def welcome_assignment_answers(question):
 
 if __name__ == "__main__":
     # use this space to debug and verify that the program works
-    debug_question = "Is MD5 a secured hashing algorithm? - Yes/No"
+    debug_question = "Is MD5 a secured hashing algorithm..? - Yes/No"
     print(welcome_assignment_answers(debug_question))
 
 # Questions:
